@@ -24,10 +24,6 @@ public class VehiculoPasajeros extends Vehiculo {
         System.out.println("Numero de pasajeros: " + numPasajeros);
     }
 
-    @Override
-    public void realizarMantenimiento() {
-        System.out.println("Realizando mantenimiento del vehículo de pasajeros. Número de pasajeros: " + numPasajeros);
-    }
 }
 
 

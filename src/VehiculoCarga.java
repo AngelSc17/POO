@@ -23,9 +23,5 @@ public class VehiculoCarga extends Vehiculo {
         System.out.println("Capacidad de Carga: " + capacidadCarga + " kg");
     }
 
-    @Override
-    public void realizarMantenimiento() {
-        System.out.println("Realizando mantenimiento del vehículo de carga. Capacidad de carga: " + capacidadCarga + " toneladas");
-    }
 }
 
